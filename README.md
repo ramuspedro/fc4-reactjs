@@ -10,7 +10,7 @@
 ` $ docker build -f Dockerfile -t $DOCKER_USER_ID/fc4-reactjs . `
 
 ## Running the container
-` $ docker run -d -p 80:80 $DOCKER_USER_ID/fc4-reactjs `
+` $ docker run -d -p 3000:80 $DOCKER_USER_ID/fc4-reactjs `
 
 ## Pushing the container
 ` $ docker push $DOCKER_USER_ID/fc4-reactjs `

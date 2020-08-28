@@ -68,14 +68,16 @@ function Users() {
 
   return (
     <div>
-      <h2>Usuários</h2>
-      <ul>
+      <h2 className="user-title">Usuários</h2>
+      <div className="user-row">
         {users.map((user, key) => (
-          <li key={key}>
-            {user.first_name}
-          </li>
+          <div key={key} className="w3-quarter">
+            <img src={user.avatar} className="w3-circle w3-hover-opacity"></img>
+            <h3 className="user-name">{user.first_name} {user.last_name}</h3>
+            <p className="user-email">{user.email}</p>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

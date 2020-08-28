@@ -27,3 +27,47 @@ code {
   color: white;
   text-align: center;
 }
+
+.fc4-menu {
+  text-align: right;
+  list-style-type: none;
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fc4-menu li {
+  padding-right: 1rem;
+}
+
+.fc4-menu li a {
+  color: white;
+}
+
+.user-row {
+  text-align: center;
+}
+
+.user-title {
+  text-align: center;
+  color: white;
+}
+
+.user-name {
+  color: white;
+}
+
+.user-email {
+  color: white;
+}
+
+.w3-circle {
+  border-radius: 50%;
+}
+
+@media (min-width: 601px) {
+  .w3-quarter {
+    width: 24.99999%;
+    float: left;
+  }
+}
